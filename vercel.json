@@ -9,7 +9,7 @@
   "routes": [
       {
           "src": "/(.*)",
-          "dest": "build/main.js",
+          "dest": "src/main.js",
           "methods": [ "GET", "POST", "PUT", "PATCH", "DELETE" ]
       }
   ]
